@@ -10,7 +10,7 @@ set (SOURCE_DIR_BASE ${CMAKE_CURRENT_LIST_DIR}/source)
 set (FRUIT_DIR_BASE ${CMAKE_CURRENT_LIST_DIR}/../third_party/fruit/src)
 set (BUILD_DIR ${CMAKE_CURRENT_LIST_DIR}/build)
 
-set (F90_FLAGS "-O3  -ffree-form  -ffloat-store -fno-sign-zero -std=f2008")
+set (F90_FLAGS "-O0 -ftest-coverage -ffree-form  -ffloat-store -fno-sign-zero -std=f2008")
 
 # Sources 
 set (F90_SOURCES 
